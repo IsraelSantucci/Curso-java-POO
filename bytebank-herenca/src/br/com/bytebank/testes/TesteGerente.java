@@ -1,3 +1,5 @@
+package br.com.bytebank.testes;
+import br.com.bytebank.modelos.Gerente;
 
 public class TesteGerente {
 

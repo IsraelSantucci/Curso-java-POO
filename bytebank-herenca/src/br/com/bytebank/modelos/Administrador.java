@@ -1,9 +1,10 @@
+package br.com.bytebank.modelos;
 
-public class Cliente implements Autenticavel{
-	
+public class Administrador extends Funcionario implements Autenticavel {
+
 	AlteticacaoUtil altenticador;
 	
-	public Cliente() {
+	public Administrador() {
 		this.altenticador = new AlteticacaoUtil();
 	}
 	
@@ -16,6 +17,12 @@ public class Cliente implements Autenticavel{
 	@Override
 	public boolean autentica(int senha) {
 		return this.altenticador.autentica(senha);
+	}
+	
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 50;
 	}
 
 }

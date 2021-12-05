@@ -1,3 +1,4 @@
+package br.com.bytebank.modelos;
 
 public interface Autenticavel {
 

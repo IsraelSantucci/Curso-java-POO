@@ -1,3 +1,4 @@
+package br.com.bytebank.modelos;
 
 public class SistemaInterno {
 	private int senha = 2222;

@@ -1,3 +1,8 @@
+package br.com.bytebank.testes;
+import br.com.bytebank.modelos.ControleBonificacao;
+import br.com.bytebank.modelos.EditorDeVideo;
+import br.com.bytebank.modelos.Funcionario;
+import br.com.bytebank.modelos.Gerente;
 
 public class TesteReferencia {
 
